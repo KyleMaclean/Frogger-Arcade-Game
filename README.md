@@ -35,7 +35,7 @@
 - The remaining time as a percentage is multiplied by 100 and added as a bonus upon landing in a swamp
 - Grabbing a bug adds 100 points to the score for the game
 
-# Score modeling
+## Score modeling
 - Score entries are stored in CSV rows and read into an Object with fields corresponding to columns
 - By implementing Comparable, ScoreBoard overrides the compareTo method to sort according to score
 - Reading, writing, formatting, etc. are all performed by the model and exposed to ScoreController
