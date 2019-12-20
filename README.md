@@ -1,5 +1,3 @@
-Tested on: A32 machine and my Linux laptop, both with Java 13.0.1 (note the JDK has a hard-coded External Library path and needs to be redirected on the testing machine) + JavaFX 13 + JUnit 5.4.2; Build script: Gradle 6.0.1
-
 ## Explanation of the MVC architecture
 - controllers: provide operations on and access to single static instances of their corresponding views
 - models: contain data and program logic modelled in a natural hierarchy of game objects and score data
